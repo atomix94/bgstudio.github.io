@@ -489,7 +489,13 @@ input {
   .review-box:nth-child(1) {
     margin: 25px 0 0 0; }
   .review-box:nth-child(3) {
-    margin: 25px 0 90px 0; } }
+    margin: 25px 0 90px 0; }
+  .review-box:nth-child(2) {
+    margin: 140px 0 140px 0; }
+  .review-box_client_name {
+    bottom: -40%; }
+  .review-box_client_website {
+    bottom: -50%; } }
 
 @media only screen and (max-width: 320px) {
   .clients {
