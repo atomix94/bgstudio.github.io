@@ -1,0 +1,155 @@
+.best-doing
+{
+    background-color:#f6f6f6;
+    padding:3%;
+    
+}
+
+
+.text_box_left,.text_box_right
+{    min-width:340px;
+    max-width:340px;
+    padding:2%;
+    border:1px solid #e5e5e5;
+    text-align:center;
+    position:relative;
+    
+} 
+
+.heading_text_boxes
+{
+    display:flex;
+    justify-content: space-around;
+    padding:3%;
+    background-color:#f6f6f6;
+ 
+    
+}
+
+.text_box_left_heading
+{
+    font-size:2rem;
+    color:#9068be;
+    padding:2%;
+    margin-bottom: 3%;
+    
+}
+
+.text_box_right_heading
+{
+    font-size:2rem;
+    color:#02c6d8;
+    padding:2%;
+    margin-bottom: 3%;
+}
+
+.text_box_text
+
+{    line-height: 25px;
+    color:gray;
+   
+    
+}
+
+.heading_text_boxes_image
+{
+position:absolute;
+    left:20%;
+
+}
+
+
+.text-box_wrapper
+{
+
+   position:relative;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+ padding:12% 0 5% 0;
+    
+}
+
+.text-box_image
+{
+    
+    position:absolute;
+    bottom:85%;
+    
+}
+.get-it_button_lower
+{
+    
+    @extend .send-form_button;
+    min-width:180px;
+    left:50%;
+    position:absolute;
+    transform:translateX(-50%);
+    padding:2%;
+    margin:0;
+}
+
+
+.learn-more_button
+{
+    @extend .send-form_button;
+    min-width:180px;
+    left:50%;
+    position:absolute;
+    transform:translateX(-50%);
+    padding:2%;
+    background-color:#326c73;
+      margin:0;
+}
+
+@media only screen and (max-width:1057px)
+{
+    .heading_text_boxes
+    {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .text_box_right
+    {
+        margin-top:160px;
+    }
+    
+}
+
+ @media only screen and (max-width : 992px) {
+.text_box_left
+     {
+         margin-top:65px;
+     }
+    }
+ @media only screen and (max-width : 768px) {
+.text_box_left
+     {
+         margin-top:80px;
+     }
+    }
+
+@media only screen and (max-width:480px)
+{
+    .text_box_left
+    {
+        margin-top:100px;
+    }
+}
+@media only screen and (max-width:320px)
+    
+{
+    .text_box_left,.text_box_right
+    {    min-width:270px;
+        
+    }
+        
+        .text-box_image
+        {
+            bottom:90%;
+        }
+    
+   
+}

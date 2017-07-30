@@ -1,0 +1,151 @@
+
+.form
+{
+    display:flex;
+    background-color:#9068be;
+    width:100vw;
+    padding:1%;
+    align-items: center;
+    justify-content: center;
+}
+
+.send-form_text
+{
+    /*display:flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    */
+}
+
+.send-form_text--big
+{
+    font-size:1.5rem;
+    color:white;
+    
+}
+
+.send-form_text--small
+{
+    font-size:1rem;
+    color:white;
+}
+
+input
+{
+font-family: 'Roboto', sans-serif;
+    padding:3%;
+    margin:3%;
+    
+}
+
+.send-form
+{
+    display:flex;
+    align-items: center;
+   
+    margin:0 2%;
+    
+}
+
+.send-form_button
+{
+    font-family: 'Damion', cursive;
+    display:flex;
+    background-color: #e46e48;
+    color:white;
+    width:255px;
+    margin:0 3%;
+justify-content: center;
+    align-items: center;
+    font-size:2rem;
+  padding:0.5%;
+}
+
+@media only screen and (max-width:1218px)
+{
+    .send-form_text--big
+    {
+        font-size:1.25rem;
+    }
+    .send-form_text--small
+    {
+        font-size:0.8rem;
+    }
+    .send-form_button
+    {
+        width:215px;
+    }
+}
+@media only screen and (max-width:1044px)
+{
+    .send-form_button
+    {
+        width:195px;
+        margin:0 6%;
+        font-size:1.5rem;
+        
+    }
+    input
+    {
+        margin:2%;
+        padding:2%;
+    }
+    
+    .send-form_text--big
+    {
+        font-size:1rem;
+    }
+    .send-form_text--small
+    {
+        font-size:0.7rem;
+    }
+    
+}
+
+@media only screen and (max-width:1439px)
+{
+    .send-form_button
+    {
+        margin:0 4%;
+    }
+}
+
+@media only screen and(max-width:1365px)
+{
+    .send-form_button
+    {
+        margin:0 4%;
+    }
+}
+
+@media only screen and (max-width:480px)
+{
+  .send-form
+    {
+        display:none;
+    }
+    
+    .send-form_button
+    {
+        margin:0 8%;
+    }
+}
+
+@media only screen and (max-width:320px)
+{
+    .send-form_text-small
+    {
+        font-size:0.7rem;
+    }
+    
+    .send-form_text--big
+    {
+        font-size:0.9rem;
+    }
+    
+    .send-form_button
+    {
+        margin:0 10%;
+        width:205px;
+    }
+}

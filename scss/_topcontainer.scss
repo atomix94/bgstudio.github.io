@@ -1,0 +1,127 @@
+
+.top-container
+{
+    display:flex; 
+    //padding:10px 150px 0 150px;
+    justify-content: center;
+    box-sizing: border-box;
+   padding:0 5%;
+    
+}
+
+.top-container_text
+{
+    color:white;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.top-container_text--small
+{
+    font-size:2.5rem;
+    text-transform: uppercase;
+}
+
+.top-container_text--big
+{
+    font-size:3.5rem;
+    text-transform: uppercase;
+}
+
+.top-container_text--smaller
+{
+    font-size:0.9rem;
+}
+
+
+.top-container_photo
+{
+    
+    height:auto;
+    padding:0;
+    margin:0;
+}
+
+
+.button
+{    font-family: 'Damion', cursive;
+    display:flex;
+    width:200px;
+     padding:2%;
+    background-color:#9068be;
+    justify-content: center;
+    align-items:center;
+    margin: 3% 0 ;
+    font-size:2rem;
+}
+
+
+@media only screen and (max-width:1325px)
+{
+    .top-container_text--big
+    {
+        font-size:2.5rem;
+    }
+    .top-container_text--small
+    {
+        font-size:2rem;
+    }
+    .button
+    {
+        height:auto;
+        padding:2%;
+        width:170px;
+    }
+}
+
+@media only screen and (max-width:1228px)
+{
+    
+}
+
+ @media only screen and (max-width : 768px) {
+.top-container_text--big
+     {
+         font-size:2rem;
+     }
+     
+     .button
+     {
+font-size:1.75rem;
+     }
+     
+     .top-banner
+     {
+         
+         width:80vw;
+     }
+     
+     .top-container_photo_woman
+     {
+         width:80%;
+     }
+     
+    }
+
+ @media only screen and (max-width : 480px) {
+
+     
+     
+    .top-container_photo_woman
+     {
+         width:100%;
+     }
+     
+     .top-container_text--small
+     {
+         font-size:1.5rem;
+     }
+     
+     .top-container_text--big
+     {
+         font-size:1.75rem;
+     }
+     
+     
+}

@@ -1,0 +1,153 @@
+.clients
+{
+    padding:8%;
+}
+
+
+.review-box_wrapper
+{
+    
+     display:flex;
+    justify-content: space-between;
+      //position:relative;
+    box-sizing: border-box;
+}
+.review-box
+{
+    padding:3%;
+    border:1px solid #e5e5e5;
+    margin:15px;
+    color:gray;
+    font-style: italic;
+  position:relative;
+    line-height: 22px;
+   
+}
+
+.review-box::before
+{
+    content:url('quote.png');
+   
+   margin:0;
+    padding:0;
+    display:block;
+    position:absolute;
+ // bottom:84%;
+   // left:4%;
+    bottom:205px;
+  
+   
+}
+
+.review-box::after
+{
+    content:url("man.png");
+    margin:0;
+    padding:0;
+    display:block;
+    position: absolute;
+    transform: translateX(-50%);
+    left:50%;
+}
+
+.review-box_client_name
+{
+    position: absolute;
+    bottom:-25%;
+    left:50%;
+    transform: translateX(-50%);
+    font-size:2rem;
+    font-family: 'Damion',cursive;
+    color:#9068be;
+}
+
+.review-box_client_website
+{
+    position: absolute;
+    bottom:-35%;
+    left:50%;
+    transform: translateX(-50%);
+    font-size:1.4rem;
+    font-family: 'Damion',cursive;
+    color:#02c6d8;
+}
+
+@media only screen and (max-width:1452px)
+{
+    .review-box::before
+    {
+        display:none;
+    }
+}
+
+@media only screen and (max-width : 1200px) {
+
+    
+    .heading_description
+    {
+        margin-bottom:0;
+    }
+    .review-box
+    {
+        margin:50px;
+    }
+    
+    
+    .review-box_wrapper
+    {
+        flex-direction: column;
+        
+    }
+    
+    
+    .review-box_client_name
+    {
+        bottom:-55%;
+    }
+    
+    
+    .review-box_client_website
+    {
+        bottom:-75%;
+    }
+    }
+@media only screen and (max-width:992px)
+{
+    
+    .review-box
+    {
+        margin:60px;
+    }
+}
+
+
+@media only screen and (max-width:480px)
+  
+{
+   .review-box_client_name
+{
+     width:125px;
+    bottom:-35%;
+}  
+    .review-box_client_website
+    {
+        bottom:-45%;
+    }
+    
+    .review-box
+    {
+        margin-bottom:95px;
+    }
+}
+
+@media only screen and(max-width:320px)
+{
+    .clients
+    {
+        margin-bottom:100px;
+    }
+    .review-box
+    {
+        margin:140px 0 0 0;
+    }
+}
