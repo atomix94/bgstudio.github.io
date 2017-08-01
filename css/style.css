@@ -150,12 +150,17 @@ table {
     width: 80%; } }
 
 @media only screen and (max-width: 480px) {
-  .top-container_photo_woman {
-    width: 100%; }
+  .top {
+    height: 100vh; }
+  .button {
+    width: 80%;
+    font-size: 2.5rem; }
   .top-container_text--small {
-    font-size: 1.5rem; }
+    font-size: 3.5rem; }
   .top-container_text--big {
-    font-size: 1.75rem; }
+    font-size: 3rem; }
+  .top-container_text--smaller {
+    font-size: 2.25rem; }
   .top-container_photo {
     display: none; } }
 
