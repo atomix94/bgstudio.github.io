@@ -155,7 +155,9 @@ table {
   .top-container_text--small {
     font-size: 1.5rem; }
   .top-container_text--big {
-    font-size: 1.75rem; } }
+    font-size: 1.75rem; }
+  .top-container_photo {
+    display: none; } }
 
 .aboutBG {
   padding: 3%; }
@@ -304,7 +306,9 @@ input {
   .send-form {
     display: none; }
   .send-form_button, .get-it_button_lower, .learn-more_button, .work_section_button {
-    margin: 0 8%; } }
+    margin: 0 8%; }
+  .send-form_text {
+    padding: 2%; } }
 
 @media only screen and (max-width: 320px) {
   .send-form_text-small {
@@ -561,7 +565,9 @@ footer {
 @media only screen and (max-width: 480px) {
   .footer_menu_element {
     font-size: 0.8rem;
-    padding: 1px 10px; } }
+    padding: 1px 10px; }
+  .footer_menu_element:nth-child(7), .footer_menu_element:nth-child(4), .footer_menu_element:nth-child(3) {
+    display: none; } }
 
 body, html {
   font-family: 'Roboto', sans-serif;

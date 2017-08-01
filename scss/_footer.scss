@@ -40,6 +40,8 @@ footer
    
 }
 
+
+
 .footer_menu_element
 {
     padding:10px 20px;
@@ -53,5 +55,10 @@ footer
     {
         font-size:0.8rem;
         padding:1px 10px;
+    }
+    
+     .footer_menu_element:nth-child(7),.footer_menu_element:nth-child(4),.footer_menu_element:nth-child(3)
+    {
+        display:none;
     }
 }
