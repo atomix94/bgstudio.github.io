@@ -107,3 +107,17 @@ background-color:white;
      padding:10px 20px;
     text-decoration: none;
 }
+
+@media only screen and(max-width:480px)
+{
+    .menu-item
+    {
+        font-size:1.25rem;
+    }
+    
+    .top-banner_container_menu_mobile
+    {
+       width:60%;
+        right:0;
+    }
+}

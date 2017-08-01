@@ -48,6 +48,13 @@ a {
   padding: 10px 20px;
   text-decoration: none; }
 
+@media only screen and (max-width: 480px) {
+  .menu-item {
+    font-size: 1.25rem; }
+  .top-banner_container_menu_mobile {
+    width: 60%;
+    right: 0; } }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -154,13 +161,13 @@ table {
     height: 100vh; }
   .button {
     width: 80%;
-    font-size: 2.5rem; }
+    font-size: 2rem; }
   .top-container_text--small {
-    font-size: 3.5rem; }
-  .top-container_text--big {
     font-size: 3rem; }
+  .top-container_text--big {
+    font-size: 2.5rem; }
   .top-container_text--smaller {
-    font-size: 2.25rem; }
+    font-size: 2rem; }
   .top-container_photo {
     display: none; } }
 
