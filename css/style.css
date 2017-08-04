@@ -157,6 +157,10 @@ table {
     width: 80%; } }
 
 @media only screen and (max-width: 480px) {
+  .top-container {
+    height: 100vh; }
+  .top-banner {
+    padding-top: 5%; }
   .top {
     height: 100vh; }
   .button {
@@ -313,6 +317,10 @@ input {
 @media only screen and (max-width: 1365px) {
   .send-form_button, .get-it_button_lower, .learn-more_button, .work_section_button {
     margin: 0 4%; } }
+
+@media only screen and (max-width: 768px) {
+  .send-form_button, .get-it_button_lower, .learn-more_button, .work_section_button {
+    font-size: 1.25rem; } }
 
 @media only screen and (max-width: 480px) {
   .send-form {
@@ -494,6 +502,12 @@ input {
   .review-box {
     margin: 60px; } }
 
+@media only screen and (max-width: 768px) {
+  .clients {
+    padding: 12% 8%; }
+  .review-box {
+    margin: 65px; } }
+
 @media only screen and (max-width: 480px) {
   .review-box_client_name {
     width: 125px;
@@ -505,13 +519,13 @@ input {
   .review-box:nth-child(1) {
     margin: 25px 0 0 0; }
   .review-box:nth-child(3) {
-    margin: 25px 0 90px 0; }
+    margin: 0 0 90px 0; }
   .review-box:nth-child(2) {
     margin: 140px 0 140px 0; }
   .review-box_client_name {
-    bottom: -40%; }
+    bottom: -50%; }
   .review-box_client_website {
-    bottom: -50%; } }
+    bottom: -60%; } }
 
 @media only screen and (max-width: 320px) {
   .clients {

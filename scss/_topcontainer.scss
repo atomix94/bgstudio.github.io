@@ -105,8 +105,14 @@ font-size:1.75rem;
     }
 
  @media only screen and (max-width : 480px) {
-
-     
+.top-container
+     {
+         height:100vh;
+     }
+     .top-banner
+     {
+         padding-top:5%;
+     }
      .top
      {
          height:100vh;

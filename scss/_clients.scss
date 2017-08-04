@@ -121,6 +121,20 @@
 }
 
 
+@media only screen and (max-width : 768px) {
+
+    
+    .clients
+    {
+        padding:12% 8%;
+    }
+    
+    .review-box
+    {
+        margin:65px;
+    }
+    }
+
 @media only screen and (max-width:480px)
   
 {
@@ -145,7 +159,7 @@
     }
 .review-box:nth-child(3)
     {
-        margin:25px 0 90px 0;
+        margin:0 0 90px 0;
     }
     
     .review-box:nth-child(2)
@@ -154,13 +168,13 @@
     }
 .review-box_client_name
     {
-        bottom:-40%;
+        bottom:-50%;
     }
     
     
     .review-box_client_website
     {
-        bottom:-50%;
+        bottom:-60%;
     }
 
 
