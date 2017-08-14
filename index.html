@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Damion|Roboto:300,400,500,700" rel="stylesheet">
 
-    
+   
 </head>
 <body>
    <header>
@@ -48,12 +48,12 @@
            
             <ul class="top-banner_container_menu">
                 <a href=""> <li class="menu-item">HOME</li></a>
-                <a href="#about">  <li class='menu-item'>ABOUT</li></a>
-                <a href="#best-doing"> <li class="menu-item">NEW HERE ?</li></a>
-                <a href="#form">  <li class="menu-item"> BLOG</li></a>
-                <a href="#best-doing"> <li class="menu-item"> SERVICES</li></a>
-                <a href="#clients"> <li class="menu-item"> PORTFOLIO</li></a>
-                <a href="#work-section"> <li class="menu-item">WORK</li></a>
+                <a href="#about">  <li class='menu-item about-link'>ABOUT</li></a>
+                <a href="#best-doing"> <li class="menu-item best-doing-link">NEW HERE ?</li></a>
+                <a href="#form">  <li class="menu-item form-link"> BLOG</li></a>
+                <a href="#best-doing"> <li class="menu-item  best-doing-link"> SERVICES</li></a>
+                <a href="#clients"> <li class="menu-item clients-link"> PORTFOLIO</li></a>
+                <a href="#work-section"> <li class="menu-item work-link">WORK</li></a>
             </ul>
         </div>
          </div>
@@ -244,16 +244,100 @@
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
   <script>
+        
       $(document).ready(function(){
         $('.top-mobile-menu_wrapper').click(function()
  {
-    $('.top-banner_container_menu_mobile').toggle().css('position','absolute');
+    $('.top-banner_container_menu_mobile').toggle(300).css('position','absolute');
            
     
     
 })  
+        
+            
+            
+       
+          
+          $('.about-link').click(function(){
+              
+              $('html,body').animate({
+                  
+                  scrollTop: $('#about').offset().top
+              
+              },700);
+              
+              
+              
+              
+              
+              
+          })
+           $('.best-doing-link').click(function(){
+              
+              $('html,body').animate({
+                  
+                  scrollTop: $('#best-doing').offset().top
+              
+              },700);
+              
+              
+              
+              
+              
+              
+          })
+          
+           $('.form-link').click(function(){
+              
+              $('html,body').animate({
+                  
+                  scrollTop: $('#form').offset().top
+              
+              },700);
+              
+              
+              
+              
+              
+              
+          })
+          
+          
+           $('.clients-link').click(function(){
+              
+              $('html,body').animate({
+                  
+                  scrollTop: $('#clients').offset().top
+              
+              },700);
+              
+              
+              
+              
+              
+              
+          })
+          
+           $('.work-link').click(function(){
+              
+              $('html,body').animate({
+                  
+                  scrollTop: $('#work-section').offset().top
+              
+              },700);
+              
+              
+              
+              
+              
+              
+          })
+          
+          
       })
       
 </script>
+
+
 </body>
 </html>
